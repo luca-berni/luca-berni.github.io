@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Luca Berni - CV"
+title: ""
 ---
 
 # Luca Berni
