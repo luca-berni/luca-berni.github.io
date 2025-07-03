@@ -3,38 +3,98 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/vapor/bootstrap.min.css">
 </head>
 <body>
-    <header>
-        <h1>Mi Nombre</h1>
-        <nav>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mi Nombre</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#studies">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <section id="sobre-mi">
+    <main class="container mt-5">
+        <section id="aboutme">
             <h2>Sobre mí</h2>
-            <p>Descripción breve sobre mi perfil profesional.</p>
+            <div class="container about">
+    <div class="container-sm">
+        <h1 class="lead aboutmetext">I'm Luca, an ICT System Administrator, Fullstack Developer and CyberSec enthusiastic living in Barcelona.</h1>
+        <h1 class="lead aboutmetext">Check out some of my 
+                <a class="text-warning work" routerLink="/projects">
+                    work
+                </a>,
+                <a class="text-danger interests" routerLink="/blog">
+                    interests
+                </a>, or 
+                <a class="text-info resume" routerLink="/resume">
+                    resume
+                </a>.
+        </h1>
+    </div>
+    <div class="container" style="margin-top: 2em;">
+            <a class="btn btn-primary" href="mailto:trabajoluca2@gmail.com">Contact Me!</a>
+    </div>
+</div>
         </section>
+        <hr>
+        <section id="resume">
+            <h2>Experiencia</h2>
+            <div class="container">
+    <pdf-viewer [src] ="pdfSource" [zoom]="0.9"></pdf-viewer>
+</div>
+        </section>
+        <hr>
+        <section id="studies">
+            <h2>Educación</h2>
+            <div class="container studies">
+    <h3 class="studiestitle text-center">My Academic Background</h3>
 
-        <section id="proyectos">
+    <div class="container d-flex justify-content-center">
+      <div class="row">
+        <div class="card border-primary col-lg-4" style="max-width: 20rem; margin: 1em 1em 1em 1em">
+            <div class="card-header">Italian Scientific Lyceum</div>
+            <div class="card-body">
+              <h6 class="card-title">2003-2017</h6>
+              <p class="card-text">I've studied in the Italian Science Lyceum at Barcelona.</p>
+            </div>
+        </div>
+        <div class="card border-primary col-lg-4" style="max-width: 20rem; margin: 1em 1em 1em 1em">
+            <div class="card-header">UPC: Telecom Engineering</div>
+            <div class="card-body">
+              <h6 class="card-title">2017-2019</h6>
+              <p class="card-text">First two years of Telecomunications Engineering at Barcelona</p>
+            </div>
+        </div>
+        <div class="card border-primary col-lg-4" style="max-width: 20rem; margin: 1em 1em 1em 1em">
+            <div class="card-header">ICT System Administration, mention in Cybersecurity</div>
+            <div class="card-body">
+              <h6 class="card-title">2019-2021</h6>
+              <p class="card-text">Two years of professional specialization where I learned about various fields of Computer Science</p>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+        </section>
+        <hr>
+        <section id="projects">
             <h2>Proyectos</h2>
-            <p>Aquí irán los proyectos destacados.</p>
-        </section>
+            <p>projects works!</p>
 
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Email: ejemplo@correo.com</p>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2025 Mi Nombre</p>
+    <footer class="bg-dark text-light text-center py-3 mt-5">
+        &copy; 2025 Mi Nombre. Todos los derechos reservados.
     </footer>
 </body>
 </html>
