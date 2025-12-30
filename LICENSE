@@ -1,6 +1,20 @@
-MIT License
+LICENSE STRUCTURE FOR THIS REPOSITORY
+=====================================
 
-Copyright (c) 2025 luca-berni
+This repository contains two distinct elements subject to different conditions:
+
+1. THE CODE: The site structure, CSS, JavaScript, and HTML files.
+2. THE CONTENT: Personal data, photographs, CV texts, and PDF documents.
+
+------------------------------------------------------------------------------
+1. LICENSE FOR THE CODE (MIT)
+------------------------------------------------------------------------------
+The MIT License permissions detailed below apply ONLY to the "Software" 
+(source code and scripts) of this repository, SPECIFICALLY EXCLUDING any 
+personal data files, images of the author, or documentation in PDF format 
+containing the curriculum vitae.
+
+Copyright (c) 2025 LUCA BERNI
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +33,15 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+------------------------------------------------------------------------------
+2. RIGHTS REGARDING PERSONAL CONTENT (ALL RIGHTS RESERVED)
+------------------------------------------------------------------------------
+All content files, including but not limited to:
+- Personal photographs and logos.
+- Biography texts and descriptions of professional experience.
+- PDF files (Curriculum Vitae).
+
+Are the exclusive property of LUCA BERNI. No permission is granted to copy, 
+distribute, modify, or use this content for commercial purposes or to 
+misrepresent the professional identity of the author.
